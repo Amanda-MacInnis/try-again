@@ -1,0 +1,85 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+#31402a
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "raleway", sans-serif;
+}
+
+#hero {
+    background-image: url(https://media.istockphoto.com/id/1280715716/photo/germany-stuttgart-magical-orange-sunset-sky-above-ripe-grain-field-nature-landscape-in-summer.jpg?s=612x612&w=0&k=20&c=TukToGq-LkmpxvEXEomC3d11prf_hDRSwA7pYsLYG50=);
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+h1 {
+    padding: 50px 10px 15px 10px;
+    margin-top: 0px;
+} 
+
+h2 {
+    padding: 10px 20px;
+}
+
+h1, h2 {
+    color: #bee6df;
+    text-shadow: 2px 2px 3px black;
+}
+
+h3 {
+    margin-top: 0;
+    padding: 20px;
+}
+
+#activities-section {
+    background-color: #bff2b6;
+    margin-top: 0;
+}
+
+#top-three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+
+}
+
+.three-pics {
+    border-radius: 100%;
+}
+
+#my-info {
+    width: 400px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    background-color: #f2d08a;
+    border-bottom: 10px solid #bff2b6;
+}
+
+#my-pic {
+    width: 180px;
+    height: 230px;
+    padding: 15px;
+}
+
+#my-text {
+    padding: 15px;
+}
